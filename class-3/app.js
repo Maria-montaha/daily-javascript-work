@@ -189,30 +189,30 @@ while(i<=fibonacci) {
 //question:2:Check a letter vowel or not using switch case
 
 
-// let vowel=a ||e||i||o||u;\
-// let vowel=prompt("");
-// switch(true){
+// let vowel=a ||e||i||o||u;
+let vowel=prompt("");
+switch(true){
   
-//                 case vowel ==  "a" ||vowel == " A" :
-//                     console.log("it is vowel");
-//                     break;
-//                 case vowel ==  "e" ||vowel == " E" :
-//                     console.log("it is vowel")
-//                     break;
-//                 case vowel ==  "i" ||vowel == "I" :
-//                     console.log("it is vowel");
-//                     break;
-//                 case vowel ==  "o" ||vowel == " O" :
-//                     console.log("it is vowel");
-//                     break;
-//                 case vowel ==  "u" ||vowel == " U" :
-//                     console.log("it is vowel");
-//                     break;
+                case vowel ==  "a" ||vowel == " A" :
+                    console.log("it is vowel");
+                    break;
+                case vowel ==  "e" ||vowel == " E" :
+                    console.log("it is vowel")
+                    break;
+                case vowel ==  "i" ||vowel == "I" :
+                    console.log("it is vowel");
+                    break;
+                case vowel ==  "o" ||vowel == " O" :
+                    console.log("it is vowel");
+                    break;
+                case vowel ==  "u" ||vowel == " U" :
+                    console.log("it is vowel");
+                    break;
     
               
-//                     default:
-//                         console.log("it is not-vowel");
-//             }
+                    default:
+                        console.log("it is not-vowel");
+            }
 
 
 //question:3:find the prime number from 1 to 100  using for loop

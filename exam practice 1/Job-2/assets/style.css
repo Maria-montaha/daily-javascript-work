@@ -1,0 +1,43 @@
+
+.navbar_section .nav-item :hover{
+    color: rgb(231, 89, 63);
+}
+
+
+.card-custom {
+    transition: transform 0.3s ease-in-out;
+  }
+.card-custom:hover {
+    transform: translateY(-10px);
+  }
+
+
+
+.banner_section .banner_img{
+    position: relative;
+  }
+
+.banner_section .banner_content{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    background-color: rgba(0, 0, 0, 0.31);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+.introduction .card-custom{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
